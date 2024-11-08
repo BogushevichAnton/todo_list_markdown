@@ -65,7 +65,7 @@ ___
 python manage.py createsuperuser
  ```
 
-### About project eng
+### About project dev eng
 1. Default auth django
    - Custom user 
    - Fields User: email, name, is_active, is_staff (admin), is_superuser (admin)
@@ -82,7 +82,7 @@ python manage.py createsuperuser
    - to-do list: latest app (web)
    - API: for use on other devices
 
-### About project ru
+### About project dev ru
 1. Аутентификация по умолчанию в Джанго
    - Усовершенственный пользователь (убраны не нужные поля с дефолтного django) 
    - Поля Пользователь: адрес электронной почты, имя, is_active, is_staff (администратор), is_superuser (администратор)
@@ -98,6 +98,9 @@ python manage.py createsuperuser
 7. Приложения todo-list и api разделены между собой.  
    - todo-list: основное приложение (web)
    - api: для использования на других устройствах
+
+### production
+nginx + gunicorn + postgresql
 
 
 
